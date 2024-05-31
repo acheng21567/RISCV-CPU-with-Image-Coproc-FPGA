@@ -1,0 +1,175 @@
+{C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/CPU.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/CPU.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module CPU
+-- Importing package common_params
+
+Top level modules:
+	CPU
+
+} {} {}} {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/CU.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/CU.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module CU
+-- Importing package common_params
+
+Top level modules:
+	CU
+
+} {} {}} {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/COMPARATOR_TOP.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/COMPARATOR_TOP.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module COMPARATOR_TOP
+-- Importing package common_params
+
+Top level modules:
+	COMPARATOR_TOP
+
+} {} {}} {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/MEMORY_TOP.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/MEMORY_TOP.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module MEMORY_TOP
+-- Importing package common_params
+
+Top level modules:
+	MEMORY_TOP
+
+} {} {}} {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/FETCH_TOP.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/FETCH_TOP.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module FETCH_TOP
+-- Importing package common_params
+
+Top level modules:
+	FETCH_TOP
+
+} {} {}} {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/DATA_BANK.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/DATA_BANK.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module DATA_BANK
+
+Top level modules:
+	DATA_BANK
+
+} {} {}} {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/CPU_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/CPU_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module CPU_tb
+-- Importing package common_params
+
+Top level modules:
+	CPU_tb
+
+} {} {}} {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/LOGICAL_TOP.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/LOGICAL_TOP.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module LOGICAL_TOP
+-- Importing package common_params
+
+Top level modules:
+	LOGICAL_TOP
+
+} {} {}} {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/I_MEM.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/I_MEM.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module I_MEM
+-- Importing package common_params
+
+Top level modules:
+	I_MEM
+
+} {} {}} {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/BR_BOOL.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/BR_BOOL.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module BR_BOOL
+-- Importing package common_params
+
+Top level modules:
+	BR_BOOL
+
+} {} {}} {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/extender.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/extender.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module extender
+-- Importing package common_params
+
+Top level modules:
+	extender
+
+} {} {}} {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/shifter_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/shifter_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module shifter_tb
+-- Importing package common_params
+
+Top level modules:
+	shifter_tb
+
+} {} {}} {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/D_MEM.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/D_MEM.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module D_MEM
+-- Importing package common_params
+
+Top level modules:
+	D_MEM
+
+} {} {}} {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/WB_TOP.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/WB_TOP.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module WB_TOP
+-- Importing package common_params
+
+Top level modules:
+	WB_TOP
+
+} {} {}} {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/IMM_GEN.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/IMM_GEN.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module IMM_GEN
+-- Importing package common_params
+
+Top level modules:
+	IMM_GEN
+
+} {} {}} {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/common_params.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/common_params.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling package common_params
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/REG_FILE.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/REG_FILE.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module REG_FILE
+-- Importing package common_params
+
+Top level modules:
+	REG_FILE
+
+} {} {}} {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/shifter.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/shifter.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module shifter
+-- Importing package common_params
+
+Top level modules:
+	shifter
+
+} {} {}} {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/EXECUTE_TOP.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/EXECUTE_TOP.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module EXECUTE_TOP
+-- Importing package common_params
+
+Top level modules:
+	EXECUTE_TOP
+
+} {} {}} {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/DECODE_TOP.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/DECODE_TOP.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module DECODE_TOP
+-- Importing package common_params
+
+Top level modules:
+	DECODE_TOP
+
+} {} {}} {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/ALU_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/ALU_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module ALU_tb
+-- Importing package common_params
+
+Top level modules:
+	ALU_tb
+
+} {} {}} {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/D_MEM_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ashwi/OneDrive - UW-Madison/School/ECE 554/Mini Labs/ECE554-SP24/Final_Project/CPU/D_MEM_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module D_MEM_tb
+-- Importing package common_params
+
+Top level modules:
+	D_MEM_tb
+
+} {} {}}

@@ -1,0 +1,731 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/BootLoad_RISCV/CPU
+vALU
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 DXx4 work 13 common_params 0 22 c9XU<Zod7D76X<lc@1;ml0
+Z2 !s110 1713903483
+!i10b 1
+!s100 :U;02;b[a1ZZV:1_f:RFh3
+I3a4o[hk6T2mYjHnI`91ZD1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 ALU_sv_unit
+S1
+Z4 dC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU
+Z5 w1712869184
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/ALU.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/ALU.sv
+Z6 L0 32
+Z7 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z8 !s108 1713903483.000000
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/ALU.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/ALU.sv|
+!i113 1
+Z9 o-work work -sv
+Z10 tCvgOpt 0
+n@a@l@u
+vALU_tb
+R0
+R1
+R2
+!i10b 1
+!s100 CNC0J5bVi>25=MYzC;Rac3
+IHL@g`6j^MUikJ=78880J31
+R3
+!s105 ALU_tb_sv_unit
+S1
+R4
+R5
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/ALU_tb.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/ALU_tb.sv
+Z11 L0 12
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/ALU_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/ALU_tb.sv|
+!i113 1
+R9
+R10
+n@a@l@u_tb
+vBR_BOOL
+R0
+R1
+R2
+!i10b 1
+!s100 Fzgm0TjjlzbL<@Aii_0^g2
+IEa>lAkH1dkabENcXnfzN`2
+R3
+!s105 BR_BOOL_sv_unit
+S1
+R4
+R5
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/BR_BOOL.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/BR_BOOL.sv
+Z12 L0 21
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/BR_BOOL.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/BR_BOOL.sv|
+!i113 1
+R9
+R10
+n@b@r_@b@o@o@l
+Xcommon_params
+R0
+R2
+!i10b 1
+!s100 l4e4_;LX;i0G>eOUN0VKA0
+Ic9XU<Zod7D76X<lc@1;ml0
+Vc9XU<Zod7D76X<lc@1;ml0
+S1
+R4
+w1713901177
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/common_params.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/common_params.sv
+L0 13
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/common_params.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/common_params.sv|
+!i113 1
+R9
+R10
+vCOMPARATOR_TOP
+R0
+R1
+R2
+!i10b 1
+!s100 >7AW?bkomGjb>k3^5D]=Q2
+Ik9T42IBDI2>1J[mGDRhNZ3
+R3
+!s105 COMPARATOR_TOP_sv_unit
+S1
+R4
+R5
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/COMPARATOR_TOP.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/COMPARATOR_TOP.sv
+R12
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/COMPARATOR_TOP.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/COMPARATOR_TOP.sv|
+!i113 1
+R9
+R10
+n@c@o@m@p@a@r@a@t@o@r_@t@o@p
+vCPU
+R0
+R1
+Z13 !s110 1713903484
+!i10b 1
+!s100 m>EEFU77ig1I_?LLg0Q@^2
+I8RS3^AIFGAJ`9<;5dOD3f2
+R3
+!s105 CPU_sv_unit
+S1
+R4
+w1713903251
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/CPU.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/CPU.sv
+Z14 L0 25
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/CPU.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/CPU.sv|
+!i113 1
+R9
+R10
+n@c@p@u
+vCPU_tb
+R0
+R1
+R13
+!i10b 1
+!s100 Q;P_k4@baQB65`E^DB0;12
+IGHcg7c>Vk3Wjn7nL_S[@C3
+R3
+!s105 CPU_tb_sv_unit
+S1
+R4
+Z15 w1713901101
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/CPU_tb.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/CPU_tb.sv
+L0 14
+R7
+r1
+!s85 0
+31
+Z16 !s108 1713903484.000000
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/CPU_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/CPU_tb.sv|
+!i113 1
+R9
+R10
+n@c@p@u_tb
+vCU
+R0
+R1
+R13
+!i10b 1
+!s100 z9KCTGc4YO=gQZaACDH?P2
+Ikm43<??KnRZHGJ9RA2j`T3
+R3
+!s105 CU_sv_unit
+S1
+R4
+R15
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/CU.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/CU.sv
+L0 54
+R7
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/CU.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/CU.sv|
+!i113 1
+R9
+R10
+n@c@u
+vD_MEM
+R0
+R1
+R13
+!i10b 1
+!s100 6nF51=EDbdO>iF6=5?[AF1
+IEP>_Zk=mH3D5TOB<`g8Me3
+R3
+!s105 D_MEM_sv_unit
+S1
+R4
+R15
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/D_MEM.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/D_MEM.sv
+L0 26
+R7
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/D_MEM.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/D_MEM.sv|
+!i113 1
+R9
+R10
+n@d_@m@e@m
+vD_MEM_tb
+R0
+R1
+R13
+!i10b 1
+!s100 W3JiLa^=cLT80@1PG[6z40
+I9aCVEHeLYCoCU5@>A;MT43
+R3
+!s105 D_MEM_tb_sv_unit
+S1
+R4
+R5
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/D_MEM_tb.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/D_MEM_tb.sv
+R11
+R7
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/D_MEM_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/D_MEM_tb.sv|
+!i113 1
+R9
+R10
+n@d_@m@e@m_tb
+vDATA_BANK
+R0
+R13
+!i10b 1
+!s100 Lc9Zb1Aj7P<F7GH09lJXW0
+IK[leO_`=nnM8S_NLi8Bc^3
+R3
+!s105 DATA_BANK_sv_unit
+S1
+R4
+R5
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/DATA_BANK.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/DATA_BANK.sv
+R14
+R7
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/DATA_BANK.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/DATA_BANK.sv|
+!i113 1
+R9
+R10
+n@d@a@t@a_@b@a@n@k
+vDECODE_TOP
+R0
+R1
+R13
+!i10b 1
+!s100 V6bLA5ZD?1PAkne`E0@Ag1
+IU@HCfRH^ZL[>nFSXb:ZEP0
+R3
+!s105 DECODE_TOP_sv_unit
+S1
+R4
+R5
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/DECODE_TOP.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/DECODE_TOP.sv
+L0 57
+R7
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/DECODE_TOP.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/DECODE_TOP.sv|
+!i113 1
+R9
+R10
+n@d@e@c@o@d@e_@t@o@p
+vEXECUTE_TOP
+R0
+R1
+R13
+!i10b 1
+!s100 2>TIFHlijGfZZoFbN>:YL3
+I6bgTEU3=RZkX_jjW]EP=c1
+R3
+!s105 EXECUTE_TOP_sv_unit
+S1
+R4
+R15
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/EXECUTE_TOP.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/EXECUTE_TOP.sv
+L0 50
+R7
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/EXECUTE_TOP.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/EXECUTE_TOP.sv|
+!i113 1
+R9
+R10
+n@e@x@e@c@u@t@e_@t@o@p
+vextender
+R0
+R1
+R13
+!i10b 1
+!s100 ej[zQ0^2gzJXoV^=zUdRg3
+IPhFJX90@`D=K:HEB>GT5?3
+R3
+!s105 extender_sv_unit
+S1
+R4
+R5
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/extender.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/extender.sv
+R12
+R7
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/extender.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/extender.sv|
+!i113 1
+R9
+R10
+vFETCH_TOP
+R0
+R1
+Z17 !s110 1713903485
+!i10b 1
+!s100 PWKa5gZkh<?2PaLK7J2ER2
+IOfbP=KXfQR=7ljmHBi==i0
+R3
+!s105 FETCH_TOP_sv_unit
+S1
+R4
+w1713902664
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/FETCH_TOP.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/FETCH_TOP.sv
+Z18 L0 27
+R7
+r1
+!s85 0
+31
+Z19 !s108 1713903485.000000
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/FETCH_TOP.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/FETCH_TOP.sv|
+!i113 1
+R9
+R10
+n@f@e@t@c@h_@t@o@p
+vFORWARDING_UNIT
+R0
+R1
+R17
+!i10b 1
+!s100 7JJ^J7RSJ[TUX21VniLGk3
+IA1lM?QAlhTV2FY2W^H`Mh3
+R3
+!s105 FORWARDING_UNIT_sv_unit
+S1
+R4
+R5
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/FORWARDING_UNIT.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/FORWARDING_UNIT.sv
+L0 43
+R7
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/FORWARDING_UNIT.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/FORWARDING_UNIT.sv|
+!i113 1
+R9
+R10
+n@f@o@r@w@a@r@d@i@n@g_@u@n@i@t
+vHAZARD_UNIT
+R0
+R1
+R17
+!i10b 1
+!s100 e^>E>J5S79D`jK1e]SjLL2
+I[jJL3KT1iU6bGF>k2`Z==1
+R3
+!s105 HAZARD_UNIT_sv_unit
+S1
+R4
+R5
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/HAZARD_UNIT.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/HAZARD_UNIT.sv
+R6
+R7
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/HAZARD_UNIT.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/HAZARD_UNIT.sv|
+!i113 1
+R9
+R10
+n@h@a@z@a@r@d_@u@n@i@t
+vI_MEM
+R0
+R1
+R17
+!i10b 1
+!s100 _NiN1UDKIY_;C_eiLJ6Q>3
+I3@XB4]Bm97f68abzLn6Wc3
+R3
+!s105 I_MEM_sv_unit
+S1
+R4
+w1713902674
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/I_MEM.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/I_MEM.sv
+Z20 L0 20
+R7
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/I_MEM.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/I_MEM.sv|
+!i113 1
+R9
+R10
+n@i_@m@e@m
+vIMM_GEN
+R0
+R1
+R17
+!i10b 1
+!s100 hW2bPk6@l:R6jAU3OdC=83
+IKQBT_7UUoO0fTO2j0fl>H0
+R3
+!s105 IMM_GEN_sv_unit
+S1
+R4
+R5
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/IMM_GEN.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/IMM_GEN.sv
+R20
+R7
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/IMM_GEN.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/IMM_GEN.sv|
+!i113 1
+R9
+R10
+n@i@m@m_@g@e@n
+vIO_LAYER
+R0
+R1
+R17
+!i10b 1
+!s100 HmL80Gz@J<OiRK>MO8MH`2
+I4nE3290[nRM8jTD7:P7Y_1
+R3
+!s105 IO_LAYER_sv_unit
+S1
+R4
+R15
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/IO_LAYER.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/IO_LAYER.sv
+L0 30
+R7
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/IO_LAYER.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/IO_LAYER.sv|
+!i113 1
+R9
+R10
+n@i@o_@l@a@y@e@r
+vLOGICAL_TOP
+R0
+R1
+R17
+!i10b 1
+!s100 aGA9mKi]ElYcmGb;XXPO]1
+IV?[R71BifDDMh_VVh@;TU2
+R3
+!s105 LOGICAL_TOP_sv_unit
+S1
+R4
+R5
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/LOGICAL_TOP.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/LOGICAL_TOP.sv
+Z21 L0 24
+R7
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/LOGICAL_TOP.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/LOGICAL_TOP.sv|
+!i113 1
+R9
+R10
+n@l@o@g@i@c@a@l_@t@o@p
+vMEMORY_TOP
+R0
+R1
+R17
+!i10b 1
+!s100 40edP;_fWQ@BZFGaJVaQL3
+IdBjAzLMV_D>7hUIFEGNWm2
+R3
+!s105 MEMORY_TOP_sv_unit
+S1
+R4
+w1713903339
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/MEMORY_TOP.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/MEMORY_TOP.sv
+L0 40
+R7
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/MEMORY_TOP.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/MEMORY_TOP.sv|
+!i113 1
+R9
+R10
+n@m@e@m@o@r@y_@t@o@p
+vMicroprocessor
+R0
+R1
+Z22 !s110 1713903486
+!i10b 1
+!s100 X5;90dImG:z8`Kel<SaPB0
+IcGd<E0@C]4h2W2jZUPMz?1
+R3
+!s105 Microprocessor_sv_unit
+S1
+R4
+w1713903479
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/Microprocessor.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/Microprocessor.sv
+R21
+R7
+r1
+!s85 0
+31
+Z23 !s108 1713903486.000000
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/Microprocessor.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/Microprocessor.sv|
+!i113 1
+R9
+R10
+n@microprocessor
+vREG_FILE
+R0
+R1
+R22
+!i10b 1
+!s100 Ycdh4=o2a73jR<I;m81KI1
+IIehz;7ncCIMX`U3:1dAG<3
+R3
+!s105 REG_FILE_sv_unit
+S1
+R4
+R5
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/REG_FILE.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/REG_FILE.sv
+R18
+R7
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/REG_FILE.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/REG_FILE.sv|
+!i113 1
+R9
+R10
+n@r@e@g_@f@i@l@e
+vshifter
+R0
+R1
+R22
+!i10b 1
+!s100 1cdh^6FiYYDFJiB>T2mSR3
+IWlXSAcAHOg9OP9P2Bm9lY1
+R3
+!s105 shifter_sv_unit
+S1
+R4
+R5
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/shifter.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/shifter.sv
+R21
+R7
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/shifter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/shifter.sv|
+!i113 1
+R9
+R10
+vshifter_tb
+R0
+R1
+R22
+!i10b 1
+!s100 60C;bMnWlLkV[D0Ko8S>43
+InRFIdP9ZTfnHT2gJgeY<L0
+R3
+!s105 shifter_tb_sv_unit
+S1
+R4
+R5
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/shifter_tb.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/shifter_tb.sv
+R11
+R7
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/shifter_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/shifter_tb.sv|
+!i113 1
+R9
+R10
+vUART_boot
+R0
+R1
+R22
+!i10b 1
+!s100 QcnKloCjLo[jB6<<2L[oJ3
+I]zY9Jc5zU_2lN<k_=gkG@1
+R3
+!s105 UART_boot_sv_unit
+S1
+R4
+w1713903378
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/UART_boot.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/UART_boot.sv
+L0 23
+R7
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/UART_boot.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/UART_boot.sv|
+!i113 1
+R9
+R10
+n@u@a@r@t_boot
+vWB_TOP
+R0
+R1
+R2
+!i10b 1
+!s100 _iG0i3eG0Y8L3;MbYKOX43
+ITUn]zf>ejeNf62E<:^D^h1
+R3
+!s105 WB_TOP_sv_unit
+S1
+R4
+R5
+8C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/WB_TOP.sv
+FC:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/WB_TOP.sv
+R12
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/WB_TOP.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/WB_TOP.sv|
+!i113 1
+R9
+R10
+n@w@b_@t@o@p

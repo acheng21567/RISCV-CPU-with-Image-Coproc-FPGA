@@ -1,0 +1,18 @@
+coproc.sv
+Signal;Port Direction;Description
+clk;Input;Global clock signal for 25MHz
+rst_n;Input;Global active low reset
+VGA_CLK;Input;25MHz VGA clock from PLL block
+start;Input;Asserted from the host processor to initiate an image processing
+gray;Input;Asserted from the host processor indicating this image processing is in grayscale
+img_idx;Input;Asserted from the host processor to do processing on the most recent image
+func [2:0];Input;Image processing opcode
+rdy;Output;Asserted when the image coprocessor is not busy
+done;Output;Asserted for one cycle when the image coprocessor finish processing
+VGA_R [7:0];Output;R channel, will be tied as {rdata[11:8],4'b0}
+VGA_G [7:0];Output;G channel, will be tied as {rdata[7:4],4'b0}
+VGA_B [7:0];Output;B channel, will be tied as {rdata[3:0],4'b0}
+VGA_BLANK_N;Output;Assert (low) during non-active pixels
+VGA_SYNC_N;Output;Tie it low
+VGA_VS;Output;Active low vertical synch
+VGA_HS;Output;Active low horizontal synch

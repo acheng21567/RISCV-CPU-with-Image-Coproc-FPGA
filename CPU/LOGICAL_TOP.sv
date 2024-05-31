@@ -1,0 +1,44 @@
+///////////////////////////////////////////////////////////////////////////////
+// Program: LOGICAL_TOP.v
+// 
+// Project: ECE 554 RISC-V 
+// 
+// Author: Team Sachima
+//
+// Description:
+//  - 32-bit Logical Unit for ALU
+//
+//  - Inputs:
+//      A:      		Operand A Input
+//      B:      		Operand B Input
+//      Sel:			Selection of Logical Operation
+//			- XOR -> 00
+//			- OR -> 01
+//			- AND -> 10
+//
+//  - Outputs:
+//		Out: 			Bitwise Logical Output
+///////////////////////////////////////////////////////////////////////////////
+
+`default_nettype none
+module LOGICAL_TOP(A, B, Sel, Out);
+	// Import Common Parameters Package
+	import common_params::*;
+	
+	////////////////////////////////////////////////////////////
+    //////////////////// Module Port List //////////////////////
+    ////////////////////////////////////////////////////////////
+	input wire [BITS - 1 : 0] A, B;
+	input wire [1 : 0] Sel;
+	output logic [BITS - 1 : 0] Out;
+	
+	
+	
+	////////////////////////////////////////////////////////////
+    //////////////////// Module Operation //////////////////////
+    ////////////////////////////////////////////////////////////
+	assign Out = Sel[1] ? (A & B) : // AND (10)
+					(Sel[0] ? (A | B) : // OR (01)
+					(A ^ B)); // XOR (00)
+endmodule
+`default_nettype wire

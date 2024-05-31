@@ -1,0 +1,187 @@
+VGA_driver.sv
+Signal;Port Direction;Description
+clk;Input;Global clock signal for 25MHz
+rst_n;Input;Global active low reset
+we;Input;Write enable signal for video memory
+start;Input;Asserted from the host processor to start the image processing
+wdata [11:0];Input;Pixel data to be stored to video memory
+done;Input;Asserted by the image DMA signaling the completion of image processing
+VGA_CLK;Input;25MHz VGA clock from PLL block
+VGA_VS;Output;Active low vertical synch
+VGA_HS;Output;Active low horizontal synch
+VGA_BLANK_N;Output;Assert (low) during non-active pixels
+VGA_SYNC_N;Output;Tie it low
+VGA_R [7:0];Output;R channel, will be tied as {rdata[11:8],4'b0}
+VGA_G [7:0];Output;G channel, will be tied as {rdata[7:4],4'b0}
+VGA_B [7:0];Output;B channel, will be tied as {rdata[3:0],4'b0}
+
+VGA_DMA.sv
+Signal;Port Direction;Description
+clk;Input;Global clock signal for 25MHz
+rst_n;Input;Global active low reset
+we_in;Input;Signal to increase waddr and counter
+start;Input;Asserted from the host processor to start the image processing
+done;Input;Asserted by the image DMA signaling the completion of image processing
+waddr [16:0];Output;17-bit write address for video memory
+we_out;Output;Write enable for video memory
+
+video_mem.sv
+Signal;Port Direction;Description
+clk;Input;Global clock signal for 25MHz
+we;Input;Write enable
+waddr [16:0];Input;17-bit write address
+wdata [11:0];Input;12-bit pixel to be written into video memory
+raddr [16:0];Input;17-bit read address
+rdata [11:0];Output;12-bit to be read from video memory
+
+proc_element.sv
+Signal;Port Direction;Description
+clk;Input;Global clock signal for 25MHz
+rst_n;Input;Global active low reset
+rgb_in0 [35:0] ;Input;3 color pixels to be converted into grayscale
+rgb_in1 [35:0];Input;3 color pixels to be converted into grayscale, [23:12] is the pixel for nonovulation operations
+rgb_in2 [35:0];Input;3 color pixels to be converted into grayscale
+func [2:0];Input;Image processing opcode passed from the host processor
+gray;Input;Asserted from the host processor if the operation should be done in grayscale
+start;Input;Asserted from the host processor to start the image processing
+cnt_start;Input;Asserted by the image DMA to enable write enable to video memory
+done;Input;Asserted by the image DMA signaling the completion of image processing
+we_reg;Output;Pipelined write enable to write pixel into video memory
+start_reg;Output;Pipelined start signaling start the image processing
+done_reg;Output;Pipelined done signaling the completion of image processing
+data_out [11:0];Output;Pixel to be written into video memory
+
+gray_converter.sv
+Signal;Port Direction;Description
+rgb_in0 [35:0];Input;3 color pixels to be converted into grayscale
+rgb_in1 [35:0];Input;3 color pixels to be converted into grayscale, [23:12] is the pixel for nonovulation operations
+rgb_in2 [35:0];Input;3 color pixels to be converted into grayscale
+gray_out0 [35:0];Input;3 grayscale pixels converted
+gray _out1 [35:0];Input;3 grayscale pixels converted
+gray _out2 [35:0];Input;3 grayscale pixels converted
+
+rgb2gray.sv
+Signal;Port Direction;Description
+rgb_in [11:0];Input;12-bit pixel in {R[3:0],G[3:0],B[3:0]} format
+gray_out [11:0];Output;12-bit grayscale pixel, extend 3 times from a 4-bit grayscale pixel calculated
+
+basic_ALU.sv
+Signal;Port Direction;Description
+pixel_in [11:0];Input;12-bit pixel to be converted
+func [1:0];Input;Image processing opcode
+pixel_out;Output;12-bit pixel after conversion
+
+conv_array.sv
+Signal;Port Direction;Description
+pixel_in0 [35:0];Input;36-bit 3 pixels to be converted
+pixel_in1 [35:0];Input;36-bit 3 pixels to be converted
+pixel_in2 [35:0];Input;36-bit 3 pixels to be converted
+func [1:0];Input;Image processing opcode
+data_out [11:0];Output;12-bit pixel after conversion
+
+conv_unit.sv
+Signal;Port Direction;Description
+color_in00 [3:0];Input;4-bit one channel pixel to be converted
+color_in01 [3:0];Input;4-bit one channel pixel to be converted
+color_in02 [3:0];Input;4-bit one channel pixel to be converted
+color_in10 [3:0];Input;4-bit one channel pixel to be converted
+color_in11 [3:0];Input;4-bit one channel pixel to be converted
+color_in12 [3:0];Input;4-bit one channel pixel to be converted
+color_in20 [3:0];Input;4-bit one channel pixel to be converted
+color_in21 [3:0];Input;4-bit one channel pixel to be converted
+color_in22 [3:0];Input;4-bit one channel pixel to be converted
+func [1:0];Input;Image processing opcode
+data_out [3:0];Output;4-bit one channel pixel after conversion
+
+image_DMA.sv
+Signal;Port Direction;Description
+clk;Input;Global clock signal for 25MHz
+rst_n;Input;Global active low reset
+start;Input;Start signal asserted from the host processor to initiate the image processing
+we_in;Input;Write enable for writing and shifting 12-bit wdata_in into the shift register in data_accum
+wdata_in [11:0];Input;12-bit input write data to be written into the shift register
+rdata_in [3071:0];Input;3072-bit read data from image buffer, will be stored in the register
+img_idx;Input;Image index from the host processor, 0 represents the original image and 1 represents the most recent image stored in image buffer
+raddr [8:0];Output;9-bit read address to read from the image buffer, concatenate img_idx at the MSB with raddr [7:0] from addr_cal
+waddr [8:0];Output;9-bit write address to write into the image buffer
+we_img_buf;Output;Write enable for writing to image buffer
+wdata_out [3071:0];Output;3072-bit write data to be written into image buffer
+rdata0_out [35:0];Output;First row of data for a 3*3 convolution window, sending to proc_element for further calculation
+rdata1_out [35:0];Output;Second row of data for a 3*3 convolution window, sending to proc_element for further calculation
+rdata2_out [35:0];Output;Third row of data for a 3*3 convolution window, sending to proc_element for further calculation
+done;Output;Done signal asserted for one cycle, showing the completion of image processing
+rdy_reg;Output;Ready signal asserted when image processor is not in processing state, pipelined from rdy in addr_cal_DMA
+cnt_start;Output;Asserted to set write enable for VGA_driver
+
+addr_calc_DMA.sv
+Signal;Port Direction;Description
+clk;Input;Global clock signal for 25MHz
+rst_n;Input;Global active low reset
+start;Input;Start signal asserted from the host processor to initiate the image processing
+we_img_buf;Output;Write enable for writing to image buffer
+raddr [7:0];Output;8-bit read address to read from the image buffer
+waddr [8:0];Output;9-bit write address to write into the image buffer
+col_cnt [7:0];Output;8-bit column counter counting from 0 to 255, specifying the column that is being processed
+reg_sel [2:0];Output;3-bit one hot register selecting one of the three registers to be written
+done;Output;Done signal asserted for one cycle, showing the completion of image processing
+rdy;Output;Ready signal asserted when image processor is not in processing state
+reg2_rst;Output;Signal asserted when reaching the last row of image buffer, ensuring padding for convolution
+cnt_start;Output;Asserted to set write enable for VGA_driver
+re;Output;Read enable indicating that new rdata from image buffer is available
+
+data_accum.sv
+Signal;Port Direction;Description
+clk;Input;Global clock signal for 25MHz
+rst_n;Input;Global active low reset
+we_in;Input;Write enable for writing and shifting 12-bit wdata_in into the shift register 
+wdata_in [11:0];Input;12-bit input write data to be written into the shift register
+wdata_out [3071:0];Output;3072-bit output write data to be written into the image buffer
+
+pixel_sel.sv
+Signal;Port Direction;Description
+rdata0_in [3071:0];Input;Data read from image buffer and stored in the register in image_DMA 
+rdata1_in [3071:0];Input;Data read from image buffer and stored in the register in image_DMA 
+rdata2_in [3071:0];Input;Data read from image buffer and stored in the register in image_DMA 
+col_cnt [7:0];Input;8-bit column counter from 0 to 255, choosing the rdata_out from rdata_in
+reg_sel [2:0];Input;3-bit one hot register formatting the rdata_out
+rdata0_out [35:0];Output;First row of data for a 3*3 convolution window, 3 pixels * 4 pixels/channel * 3 channels
+rdata1_out [35:0];Output;Second row of data for a 3*3 convolution window, for non-convolution calculation, the processed pixel is in [23:12]
+rdata2_out [35:0];Output;Third row of data for a 3*3 convolution window
+
+image_buffer.sv
+Signal;Port Direction;Description
+clk;Input;Global clock signal for 25MHz
+waddr [8:0];Input;9-bit write address for the image buffer
+raddr [8:0];Input;9-bit Read address for the image buffer
+we;Input;Write enable for writing to specified waddr
+wdata;Input;3072-bit write data to be written in to the address specified by waddr
+rdata;Output;3072-bit read data reading out from the address specified by raddr
+
+img_buf512x3072.sv
+Signal;Port Direction;Description
+clk;Input;Global clock signal for 25MHz
+we;Input;Write enable for writing to specified waddr
+waddr [8:0];Input;9-bit write address for the image buffer 
+raddr [8:0];Input;9-bit Read address for the image buffer
+wdata [3071:0];Input;3072-bit write data to be written in to the address specified by waddr
+rdata [3071:0];Output;3072-bit read data reading out from the address specified by raddr
+
+img_buf512x512.sv
+Signal;Port Direction;Description
+HEX_IDX;Parameter;String parameter specifying which part of the image to be read with readmemh
+clk;Input;Global clock signal for 25MHz
+we;Input;Write enable for writing to specified waddr
+waddr [8:0];Input;9-bit write address for the image buffer 
+raddr [8:0];Input;9-bit Read address for the image buffer
+wdata [511:0];Input;512-bit write data to be written in to the address specified by waddr
+rdata [511:0];Output;512-bit read data reading out from the address specified by raddr
+
+img_buf512x640.sv
+Signal;Port Direction;Description
+HEX_IDX;Parameter;String parameter specifying which part of the image to be read with readmemh
+clk;Input;Global clock signal for 25MHz
+we;Input;Write enable for writing to specified waddr
+waddr [8:0];Input;9-bit write address for the image buffer 
+raddr [8:0];Input;9-bit Read address for the image buffer
+wdata [639:0];Input;640-bit write data to be written in to the address specified by waddr
+rdata [639:0];Output;640-bit read data reading out from the address specified by raddr

@@ -1,0 +1,128 @@
+{C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/HAZARD_UNIT.sv} {1 {vlog -work work -sv -stats=none {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/HAZARD_UNIT.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module HAZARD_UNIT
+-- Importing package common_params
+
+Top level modules:
+	HAZARD_UNIT
+
+} {} {}} {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/shifter_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/shifter_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shifter_tb
+-- Importing package common_params
+
+Top level modules:
+	shifter_tb
+
+} {} {}} {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/FORWARDING_UNIT.sv} {1 {vlog -work work -sv -stats=none {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/FORWARDING_UNIT.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module FORWARDING_UNIT
+-- Importing package common_params
+
+Top level modules:
+	FORWARDING_UNIT
+
+} {} {}} {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/ALU.sv} {1 {vlog -work work -sv -stats=none {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/ALU.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU
+-- Importing package common_params
+
+Top level modules:
+	ALU
+
+} {} {}} {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/WB_TOP.sv} {1 {vlog -work work -sv -stats=none {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/WB_TOP.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module WB_TOP
+-- Importing package common_params
+
+Top level modules:
+	WB_TOP
+
+} {} {}} {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/IMM_GEN.sv} {1 {vlog -work work -sv -stats=none {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/IMM_GEN.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module IMM_GEN
+-- Importing package common_params
+
+Top level modules:
+	IMM_GEN
+
+} {} {}} {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/shifter.sv} {1 {vlog -work work -sv -stats=none {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/shifter.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shifter
+-- Importing package common_params
+
+Top level modules:
+	shifter
+
+} {} {}} {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/REG_FILE.sv} {1 {vlog -work work -sv -stats=none {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/REG_FILE.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module REG_FILE
+-- Importing package common_params
+
+Top level modules:
+	REG_FILE
+
+} {} {}} {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/DECODE_TOP.sv} {1 {vlog -work work -sv -stats=none {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/DECODE_TOP.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module DECODE_TOP
+-- Importing package common_params
+
+Top level modules:
+	DECODE_TOP
+
+} {} {}} {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/ALU_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/ALU_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU_tb
+-- Importing package common_params
+
+Top level modules:
+	ALU_tb
+
+} {} {}} {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/D_MEM_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/D_MEM_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module D_MEM_tb
+-- Importing package common_params
+
+Top level modules:
+	D_MEM_tb
+
+} {} {}} {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/COMPARATOR_TOP.sv} {1 {vlog -work work -sv -stats=none {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/COMPARATOR_TOP.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module COMPARATOR_TOP
+-- Importing package common_params
+
+Top level modules:
+	COMPARATOR_TOP
+
+} {} {}} {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/LOGICAL_TOP.sv} {1 {vlog -work work -sv -stats=none {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/LOGICAL_TOP.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module LOGICAL_TOP
+-- Importing package common_params
+
+Top level modules:
+	LOGICAL_TOP
+
+} {} {}} {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/DATA_BANK.sv} {1 {vlog -work work -sv -stats=none {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/DATA_BANK.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module DATA_BANK
+
+Top level modules:
+	DATA_BANK
+
+} {} {}} {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/extender.sv} {1 {vlog -work work -sv -stats=none {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/extender.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module extender
+-- Importing package common_params
+
+Top level modules:
+	extender
+
+} {} {}} {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/BR_BOOL.sv} {1 {vlog -work work -sv -stats=none {C:/Users/CYC/Desktop/UW/ECE/ECE 554/Project/ECE554-SP24/Final_Project/CPU/BR_BOOL.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module BR_BOOL
+-- Importing package common_params
+
+Top level modules:
+	BR_BOOL
+
+} {} {}}

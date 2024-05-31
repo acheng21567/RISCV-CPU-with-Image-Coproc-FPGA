@@ -1,0 +1,124 @@
+///////////////////////////////////////////////////////////////////////////////
+// Program: CPU_tb.sv
+// 
+// Project: ECE 554 RISC-V 
+// 
+// Author: Team Sachima
+//
+// Description:
+//  - RISC-V Base 32I Top-Level CPU Testbench Environment
+///////////////////////////////////////////////////////////////////////////////
+
+module CPU_tb ();
+	// Import Common Parameters Package
+	import common_params::*;
+	
+	
+	////////////////////////////////////////////////////////////
+    //////////////////// Testbench Signals /////////////////////
+    ////////////////////////////////////////////////////////////
+	logic clk, rst_n, HLT;
+	int error, test_num, test_files;
+	logic [BITS - 1 : 0] expected_regs [0 : 31];
+	logic current_test;
+	
+	
+	////////////////////////////////////////////////////////////
+    ////////////////// Module Instantiation ////////////////////
+    ////////////////////////////////////////////////////////////
+	CPU DUT(.clk(clk), .rst_n(rst_n), .HLT(HLT));
+	
+	
+	
+	////////////////////////////////////////////////////////////
+    //////////////////// Clock Generation //////////////////////
+    ////////////////////////////////////////////////////////////
+	always #5 clk = ~clk;
+	
+	
+	
+	////////////////////////////////////////////////////////////
+    /////////////////// Stimulus & Checking ////////////////////
+    ////////////////////////////////////////////////////////////
+	initial begin
+		// Default Testbench & DUT Values
+		clk = 0;
+		rst_n = 0;
+		error = 0;
+		test_num = 0;
+		
+		// Open Test Files
+		test_files = $fopen("tests.txt", "r");
+		
+		// Deassert Reset
+		repeat(5)@(posedge clk);
+		rst_n = 1;
+		
+		// Initiate Test Loop
+		while(!$feof(test_files)) begin
+			run_test();
+		end
+		
+		$fclose(test_files);
+		
+		@(posedge clk);
+		
+		if (error) begin
+			$display("- FAILED: %d Errors Occurred During Simulation", error);
+		end
+		else begin
+			$display("--- ALL TESTS PASSED ---");
+		end
+		$stop();
+	end
+	
+	
+	
+	
+	
+	task run_test;
+		test_num = test_num + 1;
+		
+		// Consume Test Name from Test_Files
+		$fgets(current_test, test_files);
+		
+		// Reset Device
+		rst_n = 0;
+		@(posedge clk);
+		
+		// Load Instruction Memory
+		$readmemh({current_test, ".hex"}, DUT.IF.i_mem.instr_mem);
+		@(posedge clk);
+		
+		// Deassert Reset
+		rst_n = 1;
+		@(posedge clk);
+		
+		// Wait until Test Completes 
+		@(posedge HLT);
+		@(posedge clk);
+		
+		// Compare Registers @ Completion
+		compare_regs(current_test, test_num);
+		@(posedge clk);
+	endtask
+	
+	
+	
+	task compare_regs;
+		input string current_test;
+		input int test_num;
+		
+		// Load Expected Register Dump
+		$readmemh({current_test, "_expected.hex"}, expected_regs);
+		
+		// Compare Registers
+		for (int i = 0; i < 32; i++) begin
+			if ((i !== 0) && (DUT.ID.rf.REG_BANK[i] !== expected_regs[i])) begin
+				$display("- ERROR on Test #%d Reg Dump: Expected 0x%h on Reg %d, Returned 0x%h", 
+				i, expected_regs[i], i, DUT.ID.rf.REG_BANK[i]);
+				error = error + 1;
+			end
+		end
+	endtask
+endmodule
