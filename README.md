@@ -21,18 +21,6 @@ Welcome to the RISC-V Microprocessor & DSP Element project repository! This proj
 4. [UART Bootloader](#uart-bootloader)
    - [Bootloader Protocol & Architecture](#bootloader-protocol-architecture)
    - [Verification & Validation](#verification-validation-2)
-5. [Synthesis Report](#synthesis-report)
-6. [Implementation & Application Software](#implementation-application-software)
-7. [Project Final Demo](#project-final-demo)
-8. [Discussion](#discussion)
-   - [Performance Results](#performance-results)
-   - [Challenges](#challenges)
-   - [Societal Implications](#societal-implications)
-   - [Engineering Standards Employed](#engineering-standards-employed)
-9. [Future Improvements](#future-improvements)
-10. [Getting Started](#getting-started)
-11. [Contributing](#contributing)
-12. [License](#license)
 
 ## Project Overview
 
@@ -96,61 +84,4 @@ The UART bootloader allows for reprogramming of device memories, avoiding freque
 
 The bootloader's functionality was validated through extensive testing.
 
-## Synthesis Report
-
-Details about the synthesis process, including resource utilization and timing analysis, are provided in the synthesis report.
-
-## Implementation & Application Software
-
-Application software and automation scripts were developed to support device operation, with implementations deployed on an Altera DE-1 FPGA.
-
-## Project Final Demo
-
-The final demonstration showcases the integrated CPU and DSP accelerator's capabilities in multimedia applications.
-
-## Discussion
-
-### Performance Results
-
-The coprocessor implementation resulted in significant speedup and reduced application code.
-
-### Challenges
-
-Various challenges encountered during the project are discussed, along with the solutions implemented.
-
-### Societal Implications
-
-The project's potential societal impact is analyzed.
-
-### Engineering Standards Employed
-
-The project adheres to relevant engineering standards to ensure quality and reliability.
-
-## Future Improvements
-
-Future improvements include hardware-based image compression and programmable convolutional arrays for advanced neural network inferencing.
-
-## Getting Started
-
-### Prerequisites
-
-- Altera DE-1 FPGA board
-- Quartus II software
-- RISC-V toolchain
-
-### Installation
-
-1. Clone the repository.
-2. Follow the setup instructions in the documentation.
-
-## Contributing
-
-We welcome contributions! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute to this project.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-For more detailed information, please refer to the [Final Report](path-to-ECE554_Final_Report.docx) and [Capstone Poster](path-to-CapstonePoster.pdf).
+For more detailed information, please refer to the [Project Proposal](ProjectProposal.pdf), [Interface Document](/ECE554_Interface_Document.pdf) and [Capstone Poster](/CapstonePoster.pdf).
